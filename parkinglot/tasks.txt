@@ -1,0 +1,43 @@
+Projekt: System Parkingowy
+                                                                                        
+  ---
+  Task 1 — jeden plik                                                                   
+  Zrób działający system parkingowy w jednym main.cpp. Pojazdy, miejsca parkingowe,     
+  podstawowa logika. CMakeLists z GoogleTest od razu. Napisz pierwsze testy.
+                                                                                        
+  ---                                                                                 
+  Task 2 — rozbicie na pliki                                                            
+  Przenieś klasy do osobnych .h/.cc. Zaktualizuj CMakeLists.                          
+  Po co: Jeden plik przestaje być czytelny gdy projekt rośnie. To naturalna granica.
+
+  ---
+  Task 3 — Rule of Five
+  Dodaj Rule of Five do wszystkich klas. Zdecyduj świadomie które klasy powinny mieć =
+  delete na kopiowanie, a które = default.
+  Po co: Zarządzanie zasobami i ownership — fundament C++.
+
+  ---
+  Task 4 — polimorfizm
+  Wprowadź hierarchię pojazdów i hierarchię miejsc parkingowych. Dodaj wirtualne metody.
+   Napisz testy które sprawdzają polimorficzne zachowanie.                              
+  Po co: Kod powinien działać na abstrakcjach, nie konkretnych typach.                  
+                                                                      
+  ---                                                                                   
+  Task 5 — Singleton                                                                    
+  Dodaj logger który zapisuje zdarzenia (parkowanie, opuszczanie). Zaimplementuj go jako
+   Singleton.                                                                           
+  Po co: Jeden globalny punkt logowania — klasyczny use case. Naucz się też kiedy       
+  Singleton jest złym pomysłem.
+                                                                                        
+  ---                                                                                 
+  Task 6 — interfejsy i Dependency Injection                                            
+  Wydziel interfejsy (IVehicle, ISpot, itd.). Wstrzyknij zależności przez konstruktor 
+  zamiast tworzyć je w środku klas.
+  Po co: Luźne powiązania, testowalność. Bez DI nie możesz mockować.
+
+  ---
+  Task 7 — Google Mock
+  Napisz mocki dla interfejsów. Przepisz testy żeby używały mocków i EXPECT_CALL.
+  Po co: Testy jednostkowe testują jedną klasę w izolacji — mocki zastępują zależności.
+                                                                                        
+  ---                                                                                   

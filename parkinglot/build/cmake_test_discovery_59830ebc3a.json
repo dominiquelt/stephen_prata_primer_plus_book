@@ -1,0 +1,124 @@
+{
+  "tests": 14,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "GetPlate",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "ReturnValue",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 12
+        }
+      ]
+    },
+    {
+      "name": "GetType",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ReturnTypeCar",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 19
+        },
+        {
+          "name": "ReturnTypeMotorcycle",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "name": "ParkingSpotPark",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ParkOnEmptySpotReturnTrue",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 31
+        },
+        {
+          "name": "ParkOnOccupiedReturnFalse",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 38
+        },
+        {
+          "name": "ParkNullptrReturnFalse",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "name": "ParkingSpotLeave",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "VehicleBecomesNullPtr",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 52
+        }
+      ]
+    },
+    {
+      "name": "ParkingSpotOccupied",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ReturnTrueOccupied",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 64
+        },
+        {
+          "name": "ReturnFalseOccupied",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 71
+        }
+      ]
+    },
+    {
+      "name": "ParkVehicle",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "AllSpotsOccupiedReturnsFalse",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 77
+        },
+        {
+          "name": "FreeSpotReturnsTrueAndParks",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "name": "CountFree",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "CountFreeWithFreeSpots",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 93
+        },
+        {
+          "name": "NoFreeSpots",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 101
+        }
+      ]
+    },
+    {
+      "name": "CountOccupied",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "AllSpotsOccupied",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 110
+        }
+      ]
+    }
+  ]
+}
