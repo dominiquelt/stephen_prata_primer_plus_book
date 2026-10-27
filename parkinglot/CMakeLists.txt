@@ -24,7 +24,12 @@ add_library(parking_lib
     src/vehicle.cc
     src/parkingspot.cc
     src/parkinglot.cc
-)
+    src/HandicappedCar.cc
+    src/ElectricCar.cc
+    src/ElectricSpot.cc
+    src/HandicappedSpot.cc
+    src/RegularSpot.cc
+    )
 add_executable(app src/main.cc)
 target_link_libraries(app PRIVATE parking_lib)
 

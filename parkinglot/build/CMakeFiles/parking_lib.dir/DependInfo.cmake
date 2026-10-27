@@ -8,6 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricCar.cc" "CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o" "gcc" "CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o.d"
+  "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricSpot.cc" "CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o" "gcc" "CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o.d"
+  "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedCar.cc" "CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o" "gcc" "CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o.d"
+  "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedSpot.cc" "CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o" "gcc" "CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o.d"
+  "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/RegularSpot.cc" "CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o" "gcc" "CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o.d"
   "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/car.cc" "CMakeFiles/parking_lib.dir/src/car.cc.o" "gcc" "CMakeFiles/parking_lib.dir/src/car.cc.o.d"
   "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/motorcycle.cc" "CMakeFiles/parking_lib.dir/src/motorcycle.cc.o" "gcc" "CMakeFiles/parking_lib.dir/src/motorcycle.cc.o.d"
   "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/parkinglot.cc" "CMakeFiles/parking_lib.dir/src/parkinglot.cc.o" "gcc" "CMakeFiles/parking_lib.dir/src/parkinglot.cc.o.d"

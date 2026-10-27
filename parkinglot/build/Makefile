@@ -262,6 +262,126 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/ElectricCar.o: src/ElectricCar.cc.o
+.PHONY : src/ElectricCar.o
+
+# target to build an object file
+src/ElectricCar.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o
+.PHONY : src/ElectricCar.cc.o
+
+src/ElectricCar.i: src/ElectricCar.cc.i
+.PHONY : src/ElectricCar.i
+
+# target to preprocess a source file
+src/ElectricCar.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/ElectricCar.cc.i
+.PHONY : src/ElectricCar.cc.i
+
+src/ElectricCar.s: src/ElectricCar.cc.s
+.PHONY : src/ElectricCar.s
+
+# target to generate assembly for a file
+src/ElectricCar.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/ElectricCar.cc.s
+.PHONY : src/ElectricCar.cc.s
+
+src/ElectricSpot.o: src/ElectricSpot.cc.o
+.PHONY : src/ElectricSpot.o
+
+# target to build an object file
+src/ElectricSpot.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o
+.PHONY : src/ElectricSpot.cc.o
+
+src/ElectricSpot.i: src/ElectricSpot.cc.i
+.PHONY : src/ElectricSpot.i
+
+# target to preprocess a source file
+src/ElectricSpot.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.i
+.PHONY : src/ElectricSpot.cc.i
+
+src/ElectricSpot.s: src/ElectricSpot.cc.s
+.PHONY : src/ElectricSpot.s
+
+# target to generate assembly for a file
+src/ElectricSpot.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.s
+.PHONY : src/ElectricSpot.cc.s
+
+src/HandicappedCar.o: src/HandicappedCar.cc.o
+.PHONY : src/HandicappedCar.o
+
+# target to build an object file
+src/HandicappedCar.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o
+.PHONY : src/HandicappedCar.cc.o
+
+src/HandicappedCar.i: src/HandicappedCar.cc.i
+.PHONY : src/HandicappedCar.i
+
+# target to preprocess a source file
+src/HandicappedCar.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.i
+.PHONY : src/HandicappedCar.cc.i
+
+src/HandicappedCar.s: src/HandicappedCar.cc.s
+.PHONY : src/HandicappedCar.s
+
+# target to generate assembly for a file
+src/HandicappedCar.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.s
+.PHONY : src/HandicappedCar.cc.s
+
+src/HandicappedSpot.o: src/HandicappedSpot.cc.o
+.PHONY : src/HandicappedSpot.o
+
+# target to build an object file
+src/HandicappedSpot.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o
+.PHONY : src/HandicappedSpot.cc.o
+
+src/HandicappedSpot.i: src/HandicappedSpot.cc.i
+.PHONY : src/HandicappedSpot.i
+
+# target to preprocess a source file
+src/HandicappedSpot.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.i
+.PHONY : src/HandicappedSpot.cc.i
+
+src/HandicappedSpot.s: src/HandicappedSpot.cc.s
+.PHONY : src/HandicappedSpot.s
+
+# target to generate assembly for a file
+src/HandicappedSpot.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.s
+.PHONY : src/HandicappedSpot.cc.s
+
+src/RegularSpot.o: src/RegularSpot.cc.o
+.PHONY : src/RegularSpot.o
+
+# target to build an object file
+src/RegularSpot.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o
+.PHONY : src/RegularSpot.cc.o
+
+src/RegularSpot.i: src/RegularSpot.cc.i
+.PHONY : src/RegularSpot.i
+
+# target to preprocess a source file
+src/RegularSpot.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/RegularSpot.cc.i
+.PHONY : src/RegularSpot.cc.i
+
+src/RegularSpot.s: src/RegularSpot.cc.s
+.PHONY : src/RegularSpot.s
+
+# target to generate assembly for a file
+src/RegularSpot.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parking_lib.dir/build.make CMakeFiles/parking_lib.dir/src/RegularSpot.cc.s
+.PHONY : src/RegularSpot.cc.s
+
 src/car.o: src/car.cc.o
 .PHONY : src/car.o
 
@@ -450,6 +570,21 @@ help:
 	@echo "... gtest_main"
 	@echo "... parking_lib"
 	@echo "... tests"
+	@echo "... src/ElectricCar.o"
+	@echo "... src/ElectricCar.i"
+	@echo "... src/ElectricCar.s"
+	@echo "... src/ElectricSpot.o"
+	@echo "... src/ElectricSpot.i"
+	@echo "... src/ElectricSpot.s"
+	@echo "... src/HandicappedCar.o"
+	@echo "... src/HandicappedCar.i"
+	@echo "... src/HandicappedCar.s"
+	@echo "... src/HandicappedSpot.o"
+	@echo "... src/HandicappedSpot.i"
+	@echo "... src/HandicappedSpot.s"
+	@echo "... src/RegularSpot.o"
+	@echo "... src/RegularSpot.i"
+	@echo "... src/RegularSpot.s"
 	@echo "... src/car.o"
 	@echo "... src/car.i"
 	@echo "... src/car.s"

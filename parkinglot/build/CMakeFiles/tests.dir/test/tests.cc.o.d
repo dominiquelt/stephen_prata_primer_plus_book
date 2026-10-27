@@ -1019,8 +1019,13 @@ CMakeFiles/tests.dir/test/tests.cc.o: \
   /Users/opera_user/Desktop/mentoring/steven/parkinglot/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
   /Users/opera_user/Desktop/mentoring/steven/parkinglot/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
   /Users/opera_user/Desktop/mentoring/steven/parkinglot/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricCar.h \
   /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/car.h \
   /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/vehicle.h \
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricSpot.h \
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/parkingspot.h \
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedCar.h \
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedSpot.h \
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/RegularSpot.h \
   /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/motorcycle.h \
-  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/parkinglot.h \
-  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/parkingspot.h
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/parkinglot.h

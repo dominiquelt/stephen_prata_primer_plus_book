@@ -1,5 +1,5 @@
 {
-  "tests": 14,
+  "tests": 33,
   "name": "AllTests",
   "testsuites": [
     {
@@ -9,23 +9,33 @@
         {
           "name": "ReturnValue",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 12
+          "line": 17
         }
       ]
     },
     {
       "name": "GetType",
-      "tests": 2,
+      "tests": 4,
       "testsuite": [
         {
           "name": "ReturnTypeCar",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 19
+          "line": 24
         },
         {
           "name": "ReturnTypeMotorcycle",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 25
+          "line": 30
+        },
+        {
+          "name": "ReturnTypeElectric",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 136
+        },
+        {
+          "name": "ReturnTypeHandicapped",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 142
         }
       ]
     },
@@ -36,17 +46,17 @@
         {
           "name": "ParkOnEmptySpotReturnTrue",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 31
+          "line": 36
         },
         {
           "name": "ParkOnOccupiedReturnFalse",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 38
+          "line": 43
         },
         {
           "name": "ParkNullptrReturnFalse",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 46
+          "line": 51
         }
       ]
     },
@@ -57,7 +67,7 @@
         {
           "name": "VehicleBecomesNullPtr",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 52
+          "line": 57
         }
       ]
     },
@@ -68,12 +78,12 @@
         {
           "name": "ReturnTrueOccupied",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 64
+          "line": 69
         },
         {
           "name": "ReturnFalseOccupied",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 71
+          "line": 76
         }
       ]
     },
@@ -84,12 +94,12 @@
         {
           "name": "AllSpotsOccupiedReturnsFalse",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 77
+          "line": 82
         },
         {
           "name": "FreeSpotReturnsTrueAndParks",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 85
+          "line": 93
         }
       ]
     },
@@ -100,12 +110,12 @@
         {
           "name": "CountFreeWithFreeSpots",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 93
+          "line": 102
         },
         {
           "name": "NoFreeSpots",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 101
+          "line": 113
         }
       ]
     },
@@ -116,7 +126,128 @@
         {
           "name": "AllSpotsOccupied",
           "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
-          "line": 110
+          "line": 125
+        }
+      ]
+    },
+    {
+      "name": "CanAcceptReg",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "AcceptsRegularCar",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 148
+        },
+        {
+          "name": "AcceptsMotorcycle",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 154
+        },
+        {
+          "name": "AcceptsElectricCar",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 160
+        }
+      ]
+    },
+    {
+      "name": "CanAcceptElectric",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "AcceptsRegularCar",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 166
+        },
+        {
+          "name": "DeclinesRegularCar",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 171
+        },
+        {
+          "name": "DeclinesMotorcycle",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 177
+        },
+        {
+          "name": "DeclinesHandicapped",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 183
+        }
+      ]
+    },
+    {
+      "name": "CanAcceptHandicapped",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "AcceptsHandicappedCar",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 189
+        },
+        {
+          "name": "DeclinesCar",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 195
+        },
+        {
+          "name": "DeclinesElectricCar",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 201
+        },
+        {
+          "name": "DeclinesMotorcycle",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 207
+        }
+      ]
+    },
+    {
+      "name": "ParkElectric",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ParkingLotHasAnElectricSpot",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 213
+        },
+        {
+          "name": "ParkingLotDoesNotHaveAnElectricSpot",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 219
+        }
+      ]
+    },
+    {
+      "name": "ParkHandicapped",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ParkingLotHasHandicappedSpot",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 225
+        },
+        {
+          "name": "ParkingLotDoesNotHaveHandicappedSpot",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 231
+        }
+      ]
+    },
+    {
+      "name": "ParkRegularCar",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ParkingWithDifferentSpotsReturnsTrue",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 237
+        },
+        {
+          "name": "ParkingWithOnlyElectricSpotsReturnsFalse",
+          "file": "\/Users\/opera_user\/Desktop\/mentoring\/steven\/parkinglot\/test\/tests.cc",
+          "line": 243
         }
       ]
     }

@@ -142,13 +142,88 @@ CMakeFiles/parking_lib.dir/src/parkinglot.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parking_lib.dir/src/parkinglot.cc.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/parkinglot.cc -o CMakeFiles/parking_lib.dir/src/parkinglot.cc.s
 
+CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o: CMakeFiles/parking_lib.dir/flags.make
+CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o: /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedCar.cc
+CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o: CMakeFiles/parking_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/opera_user/Desktop/mentoring/steven/parkinglot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o -MF CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o.d -o CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedCar.cc
+
+CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedCar.cc > CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.i
+
+CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedCar.cc -o CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.s
+
+CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o: CMakeFiles/parking_lib.dir/flags.make
+CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o: /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricCar.cc
+CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o: CMakeFiles/parking_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/opera_user/Desktop/mentoring/steven/parkinglot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o -MF CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o.d -o CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricCar.cc
+
+CMakeFiles/parking_lib.dir/src/ElectricCar.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parking_lib.dir/src/ElectricCar.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricCar.cc > CMakeFiles/parking_lib.dir/src/ElectricCar.cc.i
+
+CMakeFiles/parking_lib.dir/src/ElectricCar.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parking_lib.dir/src/ElectricCar.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricCar.cc -o CMakeFiles/parking_lib.dir/src/ElectricCar.cc.s
+
+CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o: CMakeFiles/parking_lib.dir/flags.make
+CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o: /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricSpot.cc
+CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o: CMakeFiles/parking_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/opera_user/Desktop/mentoring/steven/parkinglot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o -MF CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o.d -o CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricSpot.cc
+
+CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricSpot.cc > CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.i
+
+CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricSpot.cc -o CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.s
+
+CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o: CMakeFiles/parking_lib.dir/flags.make
+CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o: /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedSpot.cc
+CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o: CMakeFiles/parking_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/opera_user/Desktop/mentoring/steven/parkinglot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o -MF CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o.d -o CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedSpot.cc
+
+CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedSpot.cc > CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.i
+
+CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedSpot.cc -o CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.s
+
+CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o: CMakeFiles/parking_lib.dir/flags.make
+CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o: /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/RegularSpot.cc
+CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o: CMakeFiles/parking_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/opera_user/Desktop/mentoring/steven/parkinglot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o -MF CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o.d -o CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/RegularSpot.cc
+
+CMakeFiles/parking_lib.dir/src/RegularSpot.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parking_lib.dir/src/RegularSpot.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/RegularSpot.cc > CMakeFiles/parking_lib.dir/src/RegularSpot.cc.i
+
+CMakeFiles/parking_lib.dir/src/RegularSpot.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parking_lib.dir/src/RegularSpot.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/RegularSpot.cc -o CMakeFiles/parking_lib.dir/src/RegularSpot.cc.s
+
 # Object files for target parking_lib
 parking_lib_OBJECTS = \
 "CMakeFiles/parking_lib.dir/src/car.cc.o" \
 "CMakeFiles/parking_lib.dir/src/motorcycle.cc.o" \
 "CMakeFiles/parking_lib.dir/src/vehicle.cc.o" \
 "CMakeFiles/parking_lib.dir/src/parkingspot.cc.o" \
-"CMakeFiles/parking_lib.dir/src/parkinglot.cc.o"
+"CMakeFiles/parking_lib.dir/src/parkinglot.cc.o" \
+"CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o" \
+"CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o" \
+"CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o" \
+"CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o" \
+"CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o"
 
 # External object files for target parking_lib
 parking_lib_EXTERNAL_OBJECTS =
@@ -158,9 +233,14 @@ libparking_lib.a: CMakeFiles/parking_lib.dir/src/motorcycle.cc.o
 libparking_lib.a: CMakeFiles/parking_lib.dir/src/vehicle.cc.o
 libparking_lib.a: CMakeFiles/parking_lib.dir/src/parkingspot.cc.o
 libparking_lib.a: CMakeFiles/parking_lib.dir/src/parkinglot.cc.o
+libparking_lib.a: CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o
+libparking_lib.a: CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o
+libparking_lib.a: CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o
+libparking_lib.a: CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o
+libparking_lib.a: CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o
 libparking_lib.a: CMakeFiles/parking_lib.dir/build.make
 libparking_lib.a: CMakeFiles/parking_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/opera_user/Desktop/mentoring/steven/parkinglot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libparking_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/opera_user/Desktop/mentoring/steven/parkinglot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libparking_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/parking_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parking_lib.dir/link.txt --verbose=$(VERBOSE)
 

@@ -878,4 +878,7 @@ CMakeFiles/parking_lib.dir/src/parkinglot.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/parkingspot.h \
-  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/vehicle.h
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/vehicle.h \
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricSpot.h \
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedSpot.h \
+  /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/RegularSpot.h

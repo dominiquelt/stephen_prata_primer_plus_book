@@ -31,6 +31,36 @@
 },
 {
   "directory": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedCar.cc",
+  "file": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedCar.cc",
+  "output": "CMakeFiles/parking_lib.dir/src/HandicappedCar.cc.o"
+},
+{
+  "directory": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricCar.cc",
+  "file": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricCar.cc",
+  "output": "CMakeFiles/parking_lib.dir/src/ElectricCar.cc.o"
+},
+{
+  "directory": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricSpot.cc",
+  "file": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/ElectricSpot.cc",
+  "output": "CMakeFiles/parking_lib.dir/src/ElectricSpot.cc.o"
+},
+{
+  "directory": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedSpot.cc",
+  "file": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/HandicappedSpot.cc",
+  "output": "CMakeFiles/parking_lib.dir/src/HandicappedSpot.cc.o"
+},
+{
+  "directory": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/RegularSpot.cc",
+  "file": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/RegularSpot.cc",
+  "output": "CMakeFiles/parking_lib.dir/src/RegularSpot.cc.o"
+},
+{
+  "directory": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/build",
   "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/app.dir/src/main.cc.o -c /Users/opera_user/Desktop/mentoring/steven/parkinglot/src/main.cc",
   "file": "/Users/opera_user/Desktop/mentoring/steven/parkinglot/src/main.cc",
   "output": "CMakeFiles/app.dir/src/main.cc.o"
