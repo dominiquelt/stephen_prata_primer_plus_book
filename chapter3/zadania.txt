@@ -73,4 +73,3 @@ Bieżące dane można znaleźć w Internecie.
 
 6. Napisz program, który będzie pytał, ile mil przejechano i ile galonów benzyny zużyto oraz ile jeszcze zostało. Możesz też napisać program, który poprosi o podanie odległości w kilometrach i ilości benzyny w litrach, aby podać wynik zgodnie z normami europejskimi, w litrach na 100 kilometrów.
 
-7. Napisz program, który poprosi o informację na temat zużycia benzyny (litry na 100 kilometrów), następnie zamień to na amerykańskie mile na galon. Zwróć uwagę na to, że w dodawaniu użyte będą różne jednostki miary. Podejście amerykańskie stanowi odwrotność europejskiego, gdyż odwrotny jest stosunek odległości do ilości paliwa (zamiast stosunku paliwa do odległości).
