@@ -23,19 +23,43 @@ Na koniec podaj sekundy łuku: 19
 Podaj liczbę sekund: 31600000
 31600000 sekund = 365 dni, 17 godzin, 46 minut, 40 sekund
 
-4.1Napisz program, który pobiera od użytkownika kwotę w pełnych złotych (np. 187 zł) i wylicza, jak wypłacić tę sumę za pomocą
+4.1Napisz program, który pobiera od użytkownika 
+kwotę w pełnych złotych (np. 187 zł) i wylicza, jak wypłacić tę sumę za pomocą
  jak najmniejszej liczby banknotów i monet.
- Do dyspozycji masz nominały:
+ Do dyspozycji masz nominały:100 zł50 zł20 zł10 zł1 zł (resztka)
 
-100 zł
+4.2
+Task: Day of the Week (Cyclic Modulo)
+Days are numbered 0 to 6 (0 = Sunday, 1 = Monday, ..., 6 = Saturday).
+Prompt the user for:
+1. Current day number (0-6)
+2. Number of elapsed days
+Calculate and display the future day number using modulo 7.
+Example: day 2 + 10 days = day 5 (Friday), because (2 + 10) % 7 = 5.
 
-50 zł
+4_3
+/*
+Task 2: Warehouse Packing (Pallets & Boxes)
+A factory packs mugs for shipment:
+- 1 pallet holds 144 mugs (a gross)
+- 1 box holds 12 mugs (a dozen)
+- Remaining mugs are shipped loose
+Prompt the user for the total mug count (e.g. 350) and output:
+- number of full pallets
+- number of boxes
+- number of loose mugs
+*/
 
-20 zł
-
-10 zł
-
-1 zł (resztka)
+4_4
+/*
+Task 3: Split a 3-Digit Number into Digits
+Prompt the user for a 3-digit integer (e.g. 749).
+Using only / and % operators, extract and display:
+- hundreds digit (7)
+- tens digit (4)
+- units digit (9)
+- sum of digits (7 + 4 + 9 = 20)
+*/
 
 5. Napisz program, który poprosi użytkownika o wpisanie bieżącej liczebności populacji świata i bieżącej liczebności populacji Polski
  (albo innego wybranego kraju) i zapisze otrzymane dane w zmiennych typu long long. Potem program powinien obliczyć i wypisać procent, 
