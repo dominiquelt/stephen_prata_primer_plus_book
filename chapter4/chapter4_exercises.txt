@@ -1,0 +1,146 @@
+================================================================================
+                    C++ PROGRAMMING EXERCISES - CHAPTER 4
+================================================================================
+
+--------------------------------------------------------------------------------
+Exercise 1: Student Record & Grade Adjustment
+--------------------------------------------------------------------------------
+
+Write a C++ program that requests and displays information as shown in the 
+following example run:
+
+    What is your first name? Betty Sue
+    What is your last name? Yewe
+    What letter grade do you deserve? B
+    What is your age? 22
+    Name: Yewe, Betty Sue
+    Grade: C
+    Age: 22
+
+Requirements:
+- The program should be able to accept first names that comprise more than one word.
+- The program must adjust the entered letter grade downward by one letter (e.g., 'A' 
+  becomes 'B', 'B' becomes 'C').
+- Assume that the user only enters 'A', 'B', or 'C' so that you do not need to 
+  handle the jump between 'D' and 'F'.
+
+--------------------------------------------------------------------------------
+Exercise 2: String Class Refactoring
+--------------------------------------------------------------------------------
+Rewrite Listing 4.4 from the textbook, replacing C-style character arrays (char[]) 
+with C++ standard library string objects (std::string).
+
+
+--------------------------------------------------------------------------------
+Exercise 3: Full Name Concatenation Using C-Strings
+--------------------------------------------------------------------------------
+Write a program that prompts the user to enter their first name and last name 
+separately. The program must then construct, store, and display a third string 
+consisting of the last name followed by a comma, a space, and the first name 
+(i.e., "LastName, FirstName").
+
+Requirements:
+- Use C-style character arrays (char[]).
+- Use string manipulation functions from the <cstring> header (e.g., strcpy, 
+  strcat, or their safer bounds-checking variants).
+
+Sample Run:
+    Enter your first name: Flip
+    Enter your last name: Fleming
+    Here’s the information in a single string: Fleming, Flip
+
+
+--------------------------------------------------------------------------------
+Exercise 4: Full Name Concatenation Using std::string
+--------------------------------------------------------------------------------
+Write a program that prompts the user to enter their first name and last name 
+separately. The program must then construct, store, and display a third string 
+consisting of the last name followed by a comma, a space, and the first name 
+(i.e., "LastName, FirstName").
+
+Requirements:
+- Use std::string objects and methods from the <string> header file instead 
+  of C-style character arrays.
+
+Sample Run:
+    Enter your first name: Flip
+    Enter your last name: Fleming
+    Here’s the information in a single string: Fleming, Flip
+
+
+--------------------------------------------------------------------------------
+Exercise 5: CandyBar Structure Initialization
+--------------------------------------------------------------------------------
+The CandyBar structure contains three members:
+1. Brand name (string/text)
+2. Weight (floating-point value, can have fractional parts)
+3. Number of calories (integer)
+
+Write a program that:
+- Declares the CandyBar structure.
+- Creates a CandyBar variable named 'snack'.
+- Initializes 'snack' at the point of declaration with the values:
+    - Brand: "Mocha Munch"
+    - Weight: 2.3
+    - Calories: 350
+- Displays the contents of the 'snack' variable to the console.
+
+
+--------------------------------------------------------------------------------
+Exercise 6: Array of CandyBar Structures
+--------------------------------------------------------------------------------
+Using the CandyBar structure defined in Exercise 5:
+- Write a program that creates a statically sized array of three CandyBar structures.
+- Initialize the elements of the array with values of your choice.
+- Display the contents of each structure in the array.
+
+
+--------------------------------------------------------------------------------
+Exercise 7: Pizza Analysis Service
+--------------------------------------------------------------------------------
+William Wingate runs a pizza-analysis service. For each pizza, he needs to record 
+the following information:
+1. The name of the pizza company (can consist of more than one word)
+2. The diameter of the pizza (numeric)
+3. The weight of the pizza (numeric)
+
+Write a program that:
+- Defines a struct capable of storing these three data points.
+- Uses a variable of that struct type.
+- Prompts the user to enter each item sequentially using std::cin (and its methods).
+- Displays the entered information back to the console using std::cout.
+
+
+--------------------------------------------------------------------------------
+Exercise 8: Dynamic Pizza Structure Allocation
+--------------------------------------------------------------------------------
+Modify Exercise 7 with the following changes:
+- Instead of declaring a local structure variable, dynamically allocate the struct 
+  on the heap using the 'new' operator.
+- Have the program request the pizza diameter BEFORE requesting the company name.
+  (Be sure to handle leftover newline characters in the input stream before reading 
+  the multi-word string).
+- Free the allocated memory using 'delete' when finished.
+
+
+--------------------------------------------------------------------------------
+Exercise 9: Dynamic Array of CandyBars
+--------------------------------------------------------------------------------
+Modify Exercise 6 with the following change:
+- Instead of declaring a static array of three CandyBar structures, dynamically 
+  allocate the array on the heap using the 'new' operator.
+- Free the allocated memory using 'delete[]' before exiting.
+
+
+--------------------------------------------------------------------------------
+Exercise 10: Dash Times and Average Calculation
+--------------------------------------------------------------------------------
+Write a program that prompts the user to enter three times for the 40-yard dash 
+(or 40-meter dash).
+
+Requirements:
+- Store the recorded times using an std::array object (or a built-in array if 
+  std::array is unavailable).
+- Display the three recorded times.
+- Calculate and display the average of the times.
+================================================================================
