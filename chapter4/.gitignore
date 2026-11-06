@@ -1,4 +1,4 @@
 build/
 
 .vscode/
-.DS_Storegit reset --soft HEAD~1
+.DS_Store
